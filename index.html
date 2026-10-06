@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GATE DA 2027 — 123 Day Master Planner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><img src="./gate-logo.png" class="brand-logo" alt="GATE 2027"><div><b>GATE 2027</b><span>Data Science & AI</span></div></div>
+    <nav id="nav">
+      <button class="nav-btn active" data-view="dashboard">⌂ Dashboard</button>
+      <button class="nav-btn" data-view="roadmap">🗺️ 123-Day Roadmap</button>
+      <button class="nav-btn" data-view="sections">📚 7 Sections</button>
+      <button class="nav-btn" data-view="resources">🔗 Resources</button>
+      <button class="nav-btn" data-view="mocks">🧪 PYQs & Mocks</button>
+      <button class="nav-btn" data-view="tracker">✅ Daily Tracker</button>
+      <button class="nav-btn" data-view="gateDetails">🎯 GATE Details</button>
+      <button class="nav-btn" data-view="syllabusPdf">📄 DA Syllabus PDF</button>
+    </nav>
+    <div class="sidebar-note">
+      <strong>Target</strong><br>Finish structured preparation by <b>05 Feb 2027</b>. PLANNED BY LOKI BHAAI
+    </div>
+    <div class="sidebar-footer">Progress is saved in your browser.</div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">PERSONAL GATE DA COMMAND CENTER</div>
+        <h1 id="pageTitle">GATE DA 2027 Master Planner By Lokesh Bhaai </h1>
+      </div>
+      <div class="top-actions">
+        <button id="themeBtn" class="icon-btn" title="Toggle theme">☾</button>
+        <button id="resetBtn" class="ghost-btn">Reset Progress</button>
+        <img src="./second-logo.png"
+             class="top-logo"
+             alt="Logo">
+      </div>
+    </header>
+
+    <section id="dashboard" class="view active">
+      <div class="hero">
+        <div>
+          <span class="pill">06 OCT 2026 → 05 FEB 2027</span>
+          <h2>123 days. One syllabus. One system.</h2>
+          <p>Finish every official DA topic, solve PYQs, run timed tests and enter the final week with an error-free revision loop.</p>
+        </div>
+        <div class="countdown">
+          <span>Days to target</span><strong id="daysLeft">123</strong><small>05 Feb 2027</small>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><span>Sections</span><b>7</b><small>Official DA syllabus</small></div>
+        <div class="stat"><span>Target days</span><b>123</b><small>06 Oct → 05 Feb</small></div>
+        <div class="stat"><span>Study blocks</span><b id="completedCount">0</b><small>Checklist items completed</small></div>
+        <div class="stat"><span>Goal</span><b>100</b><small>Marks</small></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head"><div><span class="eyebrow">MASTER FLOW</span><h3>How to study every day</h3></div></div>
+          <div class="flow">
+            <div><b>01</b><span>Concept lecture / notes</span></div>
+            <div><b>02</b><span>Worked examples</span></div>
+            <div><b>03</b><span>GATE PYQs</span></div>
+            <div><b>04</b><span>Error log + formula sheet</span></div>
+            <div><b>05</b><span>Timed test</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><div><span class="eyebrow">NON-NEGOTIABLE</span><h3>Daily minimum</h3></div></div>
+          <ul class="clean">
+            <li>3–5 focused study hours on college days; more on free days.</li>
+            <li>20–40 quality questions after learning a topic.</li>
+            <li>30 minutes of General Aptitude most days.</li>
+            <li>Record every wrong question and why it went wrong.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-grid" id="dashboardSections"></div>
+    </section>
+
+    <section id="roadmap" class="view">
+      <div class="section-title"><span class="eyebrow">DATE-BY-DATE</span><h2>123-Day Roadmap</h2><p>Section-first preparation, followed by integrated revision and final mocks.</p></div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section id="sections" class="view">
+      <div class="section-title"><span class="eyebrow">OFFICIAL SYLLABUS</span><h2>All 7 Sections</h2><p>Every checklist below follows the topics in your uploaded GATE 2027 DA syllabus.</p></div>
+      <div class="section-tabs" id="sectionTabs"></div>
+      <div id="sectionDetail"></div>
+    </section>
+
+    <section id="resources" class="view">
+      <div class="section-title"><span class="eyebrow">CURATED LINKS</span><h2>Study Materials & Videos</h2><p>Official sources first; NPTEL for structured learning; YouTube for targeted revision; GATEOverflow for PYQs/tests.</p></div>
+      <div id="resourceList" class="resource-grid"></div>
+    </section>
+
+    <section id="mocks" class="view">
+      <div class="section-title"><span class="eyebrow">PRACTICE ENGINE</span><h2>PYQs & Mock Tests</h2><p>Do not wait until January. Start topic-wise PYQs immediately after each topic.</p></div>
+      <div class="mock-grid">
+        <div class="card accent-card"><span class="eyebrow">FULL PAPER</span><h3>GATE DA 2026</h3><p>Use as a serious timed paper after your first full syllabus pass.</p><a class="link-btn" href="https://db.gateoverflow.in/tests" target="_blank">Open tests ↗</a></div>
+        <div class="card"><span class="eyebrow">FULL PAPER</span><h3>GATE DA 2025</h3><p>Analyze question style, difficulty and recurring concepts.</p><a class="link-btn" href="https://db.gateoverflow.in/tests" target="_blank">Open tests ↗</a></div>
+        <div class="card"><span class="eyebrow">FULL PAPER</span><h3>GATE DA 2024</h3><p>Use as a baseline and topic-discovery paper.</p><a class="link-btn" href="https://db.gateoverflow.in/tests" target="_blank">Open tests ↗</a></div>
+      </div>
+      <div class="card mock-rules">
+        <h3>Mock strategy</h3>
+        <div class="rule-grid">
+          <div><b>Now</b><span>Topic tests after each topic</span></div>
+          <div><b>Jan 1+</b><span>Mixed sectional tests</span></div>
+          <div><b>Jan 26+</b><span>Full 65-question papers</span></div>
+          <div><b>Feb 2–5</b><span>Final mocks + error repair</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tracker" class="view">
+      <div class="section-title"><span class="eyebrow">PERSONAL TRACKER</span><h2>Daily Checklist</h2><p>Tick completed days. Your progress is stored locally in this browser.</p></div>
+      <div class="tracker-toolbar">
+        <input id="trackerSearch" placeholder="Search date, section or task…">
+        <select id="trackerFilter"><option value="all">All</option><option value="done">Completed</option><option value="todo">Pending</option></select>
+      </div>
+      <div id="dailyList" class="daily-list"></div>
+    </section>
+
+
+    <section id="gateDetails" class="view">
+      <div class="section-title">
+        <span class="eyebrow">OFFICIAL EXAM INFORMATION</span>
+        <h2>GATE 2027 Details</h2>
+        <p>Data Science & Artificial Intelligence (DA) — exam pattern, marks, question types, negative marking and official dates.</p>
+      </div>
+
+      <div class="gate-cards">
+        <div class="gate-info"><span>Mode</span><b>Computer Based Test (CBT)</b><small>English</small></div>
+        <div class="gate-info"><span>Duration</span><b>3 Hours</b><small>180 minutes</small></div>
+        <div class="gate-info"><span>Total Questions</span><b>65</b><small>10 GA + 55 Subject</small></div>
+        <div class="gate-info"><span>Total Marks</span><b>100</b><small>15 GA + 85 DA</small></div>
+      </div>
+
+      <div class="grid-2 gate-layout">
+        <div class="card">
+          <span class="eyebrow">DA MARK DISTRIBUTION</span>
+          <h3>Paper Structure</h3>
+          <div class="mark-bars">
+            <div><span>General Aptitude</span><b>15 Marks</b><i style="width:17.65%"></i></div>
+            <div><span>DA Subject</span><b>85 Marks</b><i style="width:100%"></i></div>
+          </div>
+          <div class="info-strip">Questions carry either <b>1 mark or 2 marks</b>.</div>
+        </div>
+
+        <div class="card">
+          <span class="eyebrow">QUESTION TYPES</span>
+          <h3>MCQ · MSQ · NAT</h3>
+          <div class="qtype-grid">
+            <div><b>MCQ</b><span>One correct option. Negative marking applies.</span></div>
+            <div><b>MSQ</b><span>One or more correct options. No negative marking; no partial marking.</span></div>
+            <div><b>NAT</b><span>Enter a numerical answer. No negative marking.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card negative-card">
+        <span class="eyebrow">IMPORTANT</span>
+        <h3>⚠ Negative Marking</h3>
+        <div class="negative-grid">
+          <div><b>1-mark MCQ</b><strong>−1/3</strong><span>for a wrong answer</span></div>
+          <div><b>2-mark MCQ</b><strong>−2/3</strong><span>for a wrong answer</span></div>
+          <div><b>MSQ</b><strong>0</strong><span>no negative marking</span></div>
+          <div><b>NAT</b><strong>0</strong><span>no negative marking</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div><span class="eyebrow">OFFICIAL SCHEDULE</span><h3>GATE 2027 Examination Dates</h3></div>
+          <a class="link-btn" href="https://gate2027.iitm.ac.in/important_dates" target="_blank" rel="noopener">Official dates ↗</a>
+        </div>
+        <div class="date-grid">
+          <div><b>06–07 Feb 2027</b><span>Week 1</span></div>
+          <div><b>13–14 Feb 2027</b><span>Week 2</span></div>
+          <div><b>20–21 Feb 2027</b><span>Week 3</span></div>
+        </div>
+        <p class="notice">The exact DA examination date and session should be checked from your admit card/official notification. Official dates are liable to change.</p>
+      </div>
+
+      <div class="card official-links">
+        <span class="eyebrow">OFFICIAL GATE 2027</span>
+        <h3>Useful Official Pages</h3>
+        <div class="official-link-grid">
+          <a href="https://gate2027.iitm.ac.in/" target="_blank">GATE 2027 Home ↗</a>
+          <a href="https://gate2027.iitm.ac.in/question_paper_pattern" target="_blank">Question Paper Pattern ↗</a>
+          <a href="https://gate2027.iitm.ac.in/exam_papers_and_syllabus" target="_blank">Test Papers & Syllabus ↗</a>
+          <a href="https://gate2027.iitm.ac.in/faqs" target="_blank">Official FAQs ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="syllabusPdf" class="view">
+      <div class="section-title">
+        <span class="eyebrow">OFFICIAL SOURCE DOCUMENT</span>
+        <h2>DA Syllabus PDF</h2>
+        <p>Official GATE 2027 Data Science & Artificial Intelligence syllabus from IIT Madras.</p>
+      </div>
+
+      <div class="pdf-layout">
+        <div class="card pdf-card">
+          <div class="pdf-toolbar">
+            <span><b>GATE 2027 · DA</b> · Official syllabus</span>
+            <div>
+              <a class="link-btn" href="https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/DA_GATE2027_Syllabus.pdf" target="_blank">Open PDF ↗</a>
+              <a class="link-btn green" href="https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/DA_GATE2027_Syllabus.pdf" download>Download PDF ↓</a>
+            </div>
+          </div>
+          <iframe
+              class="pdf-frame"
+              src="DA_SYLLABUS_2025_2024.pdf#toolbar=1&view=FitH"
+              title="GATE DA Syllabus PDF & 2025 , 2024 QUESTION Papers">
+           </iframe> title="Official GATE 2027 DA Syllabus PDF  & 2025 , 2024 QUESTION Papers"></iframe>
+        </div>
+
+        <div class="card">
+          <span class="eyebrow">7 SECTIONS</span>
+          <h3>Syllabus Navigation</h3>
+          <div class="syllabus-nav">
+            <button onclick="openSection('probability')"><b>01</b> Probability & Statistics <span>›</span></button>
+            <button onclick="openSection('linear')"><b>02</b> Linear Algebra <span>›</span></button>
+            <button onclick="openSection('calculus')"><b>03</b> Calculus & Optimization <span>›</span></button>
+            <button onclick="openSection('dsa')"><b>04</b> Programming, Data Structures & Algorithms <span>›</span></button>
+            <button onclick="openSection('dbms')"><b>05</b> Database Management & Warehousing <span>›</span></button>
+            <button onclick="openSection('ml')"><b>06</b> Machine Learning <span>›</span></button>
+            <button onclick="openSection('ai')"><b>07</b> AI <span>›</span></button>
+          </div>
+          <div class="info-strip">This viewer uses the official IIT Madras PDF URL. If your browser blocks embedded PDFs, use <b>Open PDF</b>.</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div><b>GATE DA 2027 Planner</b> · Built from the official DA syllabus you provided.</div>
+      <div>Always verify official dates/instructions on the GATE 2027 website.</div>
+    </footer>
+  </main>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
