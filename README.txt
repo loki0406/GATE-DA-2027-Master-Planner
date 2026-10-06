@@ -1,74 +1,94 @@
-# 🎯 GATE DA 2027 Master Planner
+# GATE DA 2027 Master Planner
 
-<p align="center">
-  <img src="./gate-logo.png" alt="GATE DA 2027 Logo" width="120">
-</p>
+GATE DA 2027 Master Planner is a modern personal preparation dashboard for the GATE 2027 Data Science and Artificial Intelligence (DA) examination.
 
-<h3 align="center">
-  Personal GATE 2027 Data Science & Artificial Intelligence Preparation Dashboard
-</h3>
+The website brings syllabus tracking, study planning, resources, previous-year questions, mock tests, daily tracking, examination information, and the official DA syllabus into one place.
 
-<p align="center">
-  A modern, interactive study planner designed to organize, track, and manage GATE 2027 DA preparation in one place.
-</p>
+## Features
 
----
+- Dashboard for overall preparation
+- 123-Day preparation roadmap
+- Complete 7-section DA syllabus organization
+- Topic-wise preparation tracking
+- Study resources
+- Previous Year Questions (PYQs)
+- Mock test resources
+- Daily study tracker
+- GATE 2027 examination details
+- Official DA syllabus PDF viewer
+- Dark and light theme
+- Progress tracking using browser storage
+- Custom GATE DA branding
 
-## 🚀 Overview
+## GATE DA Syllabus Sections
 
-**GATE DA 2027 Master Planner** is a personal preparation dashboard created to manage the complete preparation journey for the **GATE 2027 Data Science & Artificial Intelligence (DA)** paper.
+The planner organizes preparation into seven major sections:
 
-Instead of maintaining separate notebooks, bookmarks, study schedules, mock-test records, and progress trackers, this project brings the preparation workflow together into a single modern web application.
+1. Probability and Statistics
+2. Linear Algebra
+3. Calculus and Optimization
+4. Programming, Data Structures and Algorithms
+5. Database Management and Warehousing
+6. Machine Learning
+7. Artificial Intelligence
 
-The planner focuses on:
+## Main Sections of the Website
 
-- 📚 Syllabus management
-- 🗓️ Long-term preparation planning
-- ✅ Topic tracking
-- 📝 PYQs and mock-test planning
-- 🔗 Study resources
-- 📊 Daily progress tracking
-- 📄 Official DA syllabus access
-- 🎯 GATE examination information
-- 🌙 Dark / Light theme
-- 💾 Browser-based progress persistence
+### Dashboard
 
----
+Provides an overview of the preparation journey and quick access to the main areas of the planner.
 
-# ✨ Features
+### 123-Day Roadmap
 
-## 🏠 Dashboard
+Provides a structured preparation roadmap for organizing study, practice, revision, PYQs, and mock tests.
 
-A central overview of the preparation journey.
+### 7 Sections
 
-The dashboard provides quick access to:
+Provides dedicated preparation areas for all seven DA syllabus sections.
 
-- Preparation progress
-- Major sections
-- Study roadmap
-- Daily tracker
-- Resources
-- PYQs & mocks
-- GATE details
-- Official DA syllabus
+### Resources
 
----
+Contains useful learning resources such as study materials, websites, videos, and practice resources.
 
-## 🗓️ 123-Day Roadmap
+### PYQs and Mocks
 
-A structured preparation roadmap designed to organize the available preparation period.
+Provides access to previous-year questions and mock-test resources for practice.
 
-It helps divide preparation into manageable phases:
+### Daily Tracker
+
+Helps track daily preparation activities and maintain consistency.
+
+### GATE Details
+
+Contains important information about the GATE 2027 examination pattern, question types, marks, duration, and marking scheme.
+
+### DA Syllabus PDF
+
+Displays the DA syllabus PDF directly inside the website.
+
+The project uses the local PDF file:
+
+`DA_SYLLABUS_2025_2024.pdf`
+
+## Technology Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Browser Local Storage
+- Git
+- GitHub
+
+## Project Structure
 
 ```text
-Learn
-  ↓
-Practice
-  ↓
-PYQs
-  ↓
-Revision
-  ↓
-Mock Tests
-  ↓
-Final Revision
+GATE-DA-2027-Master-Planner/
+│
+├── index.html
+├── styles.css
+├── app.js
+├── data.js
+├── README.md
+├── DA_SYLLABUS_2025_2024.pdf
+├── gate-logo.png
+└── second-logo.png
