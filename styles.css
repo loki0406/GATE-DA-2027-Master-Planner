@@ -132,3 +132,80 @@ body.light-theme .icon-btn {
     color: #182033;
     border-color: #dce1eb;
 }
+/* Section 1 PPT download */
+.ppt-download-card {
+  max-width: 850px;
+  padding: 28px;
+  background:
+    linear-gradient(135deg, rgba(124,92,255,.10), transparent),
+    var(--panel);
+}
+
+.ppt-download-card h3 {
+  margin-top: 12px;
+  font-size: 25px;
+}
+
+.ppt-description {
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 650px;
+}
+
+.ppt-meta {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.ppt-download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 13px 20px;
+  border-radius: 12px;
+  background: #6845e0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  transition: background .2s;
+}
+
+.ppt-download-btn:hover {
+  background: #5835cb;
+}
+
+.ppt-download-btn:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 4px;
+}
+
+.ppt-help {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Keep all sidebar items reachable on shorter screens */
+.sidebar {
+  overflow-y: auto;
+}
+
+@media (max-width: 760px) {
+  .ppt-download-card {
+    padding: 20px;
+  }
+
+  .ppt-download-card h3 {
+    font-size: 22px;
+  }
+
+  .ppt-download-btn {
+    width: 100%;
+  }
+}
