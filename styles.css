@@ -209,3 +209,22 @@ body.light-theme .icon-btn {
     width: 100%;
   }
 }
+
+
+/* Seven-section ZIP downloads */
+.zip-section-buttons{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+.zip-section-button{min-height:44px;max-width:100%;padding:11px 15px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--text);text-align:left;white-space:normal;overflow-wrap:anywhere}
+.zip-section-button:hover{border-color:var(--accent)}
+.zip-section-button.is-selected{background:#6845e0;border-color:#6845e0;color:#fff}
+.zip-section-heading{margin:0 0 18px;font-size:23px;line-height:1.4}
+.zip-material-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.zip-material-card{display:flex;flex-direction:column;align-items:flex-start;padding:26px}
+.zip-material-card h3{margin:12px 0}.zip-material-card p{color:var(--muted);line-height:1.7;margin:0 0 20px}
+.zip-status{display:inline-block;padding:6px 10px;border-radius:8px;background:var(--panel2);color:var(--muted);font-size:12px;margin-bottom:20px}
+.zip-status.is-ready{background:#d6f5e9;color:#075c42}
+.zip-download{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;margin-top:auto;border:1px solid transparent;border-radius:11px;background:#6845e0;color:#fff;font:inherit;font-weight:600;text-align:center;text-decoration:none}
+.zip-download:hover{background:#5835cb}.zip-download:disabled{background:var(--panel2);border-color:var(--line);color:var(--muted);cursor:not-allowed}
+.zip-section-button:focus-visible,.zip-download:focus-visible{outline:3px solid var(--text);outline-offset:3px}
+.zip-help{color:var(--muted);font-size:13px;line-height:1.7;margin-top:20px}
+.sidebar{overflow-y:auto}
+@media(max-width:760px){.zip-material-grid{grid-template-columns:1fr}.zip-section-button{width:100%}.zip-material-card{padding:20px}.zip-download{width:100%}}

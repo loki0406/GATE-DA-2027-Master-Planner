@@ -22,9 +22,7 @@
       <button class="nav-btn" data-view="tracker">✅ Daily Tracker</button>
       <button class="nav-btn" data-view="gateDetails">🎯 GATE Details</button>
       <button class="nav-btn" data-view="syllabusPdf">📄 DA Syllabus PDF</button>
-      <button class="nav-btn" data-view="section1Ppts" type="button">
-        📊 Section 1 PPTs
-      </button>
+      <button class="nav-btn" data-view="section1Ppts" type="button">📦 Section ZIP Downloads</button>
     </nav>
     <div class="sidebar-note">
       <strong>Target</strong><br>Finish structured preparation by <b>05 Feb 2027</b>. PLANNED BY LOKI BHAAI
@@ -249,34 +247,13 @@
     <section id="section1Ppts" class="view">
       <div class="section-title">
         <span class="eyebrow">GATE 2027 · STUDY MATERIALS</span>
-        <h2>Probability &amp; Statistics</h2>
-        <p>All Section 1 topic presentations in one download.</p>
+        <h2>Section ZIP Downloads</h2>
+        <p>Select a section to download its PPTs or PDFs.</p>
       </div>
-
-      <article class="card ppt-download-card">
-        <span class="eyebrow">COMPLETE SECTION 1 COLLECTION</span>
-        <h3>40 topic-wise PowerPoint presentations</h3>
-
-        <p class="ppt-description">
-          Concept explanations, formulas, worked examples and
-          practice questions with solutions.
-        </p>
-
-        <p class="ppt-meta">40 PPTs · 969 slides · ZIP archive</p>
-
-        <a
-          class="ppt-download-btn"
-          href="./GATE_2027_DA_Section_1_All_Topics.zip"
-          download="GATE_2027_DA_Section_1_All_Topics.zip"
-        >
-          ↓ Download Section 1 ZIP
-        </a>
-
-        <p class="ppt-help">
-          Extract the ZIP, then open <strong>INDEX.html</strong>
-          to browse the topics.
-        </p>
-      </article>
+      <div id="zipSectionButtons" class="zip-section-buttons" role="group" aria-label="Choose a syllabus section"></div>
+      <div id="zipSectionContent" aria-live="polite"></div>
+      <p class="zip-help">Extract the downloaded ZIP to access your study materials. Files marked “Coming soon” will be added later.</p>
+      <noscript>Please enable JavaScript to check download availability.</noscript>
     </section>
     <footer>
       <div><b>GATE DA 2027 Planner</b> · Built from the official DA syllabus you provided.</div>
@@ -286,5 +263,7 @@
 </div>
 <script src="data.js"></script>
 <script src="app.js"></script>
+<script src="downloads.js"></script>
 </body>
 </html>
+
