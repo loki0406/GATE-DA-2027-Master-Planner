@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+<title id="title">GATE DA 2027 — Master Planner</title><desc id="desc">Seven sections. One focused preparation journey. Plan, learn, practise, revise.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1025"/><stop offset="1" stop-color="#171137"/></linearGradient><linearGradient id="line"><stop stop-color="#9b80ff"/><stop offset="1" stop-color="#38dfbb"/></linearGradient><radialGradient id="glow"><stop stop-color="#7154e7" stop-opacity=".4"/><stop offset="1" stop-color="#7154e7" stop-opacity="0"/></radialGradient></defs>
+<rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+<ellipse cx="1080" cy="160" rx="380" ry="300" fill="url(#glow)"/>
+<g fill="none" stroke="#9b80ff" stroke-opacity=".15"><circle cx="1100" cy="200" r="100"/><circle cx="1100" cy="200" r="155"/><circle cx="1100" cy="200" r="210"/><path d="M880 0v400M940 0v400M1000 0v400M1060 0v400M1120 0v400M1180 0v400M1240 0v400M860 80h420M860 140h420M860 200h420M860 260h420M860 320h420"/></g>
+<path d="M900 290l75-60 65 20 65-115 80-40" fill="none" stroke="url(#line)" stroke-width="3"/>
+<g fill="#38dfbb"><circle cx="900" cy="290" r="5"/><circle cx="975" cy="230" r="5"/><circle cx="1040" cy="250" r="5"/><circle cx="1105" cy="135" r="5"/><circle cx="1185" cy="95" r="5"/></g>
+<rect x="64" y="55" width="257" height="32" rx="16" fill="#262344"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="82" y="77" fill="#c6bbff" font-size="13" font-weight="700" letter-spacing="2">DATA SCIENCE + AI</text><text x="64" y="155" fill="#f3f5ff" font-size="56" font-weight="700">GATE DA 2027</text><text x="64" y="215" fill="#f3f5ff" font-size="44" font-weight="700">MASTER PLANNER</text><text x="66" y="265" fill="#b8c3db" font-size="21">Seven sections. One focused preparation journey.</text><text x="66" y="333" fill="#55e2c3" font-size="15" letter-spacing="3">PLAN  /  LEARN  /  PRACTISE  /  REVISE</text></g>
+<rect x="64" y="370" width="1152" height="3" rx="1.5" fill="url(#line)"/>
+</svg>
