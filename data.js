@@ -1,5 +1,5 @@
 window.GATE_DATA = {
-  "generated_on": "2026-10-06",
+  "generated_on": "2026-10-29",
   "target_date": "2027-02-05",
   "exam_note": "Official GATE 2027 site currently lists examination weeks on Feb 6–7, Feb 13–14 and Feb 20–21, 2027. Your planner target is Feb 5; confirm your actual DA date/slot on the admit card.",
   "sections": [
@@ -9,8 +9,8 @@ window.GATE_DATA = {
       "title": "Probability & Statistics",
       "short": "Probability, distributions, estimation & hypothesis testing",
       "difficulty": "High",
-      "days": "Oct 6–22",
-      "range": "17 days",
+      "days": "29 Oct 2026 – 11 Nov 2026",
+      "range": "14 days",
       "topics": [
         "Counting: permutations and combinations",
         "Probability axioms, sample space and events",
@@ -33,43 +33,43 @@ window.GATE_DATA = {
       ],
       "plan": [
         [
-          "Oct 6–7",
+          "29 Oct 2026 – 30 Oct 2026",
           "Counting, probability axioms, sample space, events, independence, mutually exclusive events"
         ],
         [
-          "Oct 8–9",
+          "31 Oct 2026 – 01 Nov 2026",
           "Marginal/conditional/joint probability + Bayes theorem; solve basic numericals"
         ],
         [
-          "Oct 10–11",
+          "02 Nov 2026 – 03 Nov 2026",
           "Expectation, conditional expectation, variance, mean/median/mode, SD"
         ],
         [
-          "Oct 12–13",
+          "04 Nov 2026",
           "Correlation, covariance, random variables, PMF"
         ],
         [
-          "Oct 14–16",
+          "05 Nov 2026 – 06 Nov 2026",
           "Bernoulli, binomial, uniform, Poisson, exponential distributions"
         ],
         [
-          "Oct 17–18",
+          "07 Nov 2026",
           "Normal/standard normal, CDF, PDF, conditional PDF"
         ],
         [
-          "Oct 19",
+          "08 Nov 2026",
           "t and chi-squared distributions + distribution comparisons"
         ],
         [
-          "Oct 20",
+          "09 Nov 2026",
           "CLT + confidence intervals"
         ],
         [
-          "Oct 21",
+          "10 Nov 2026",
           "z-test, t-test, chi-squared test"
         ],
         [
-          "Oct 22",
+          "11 Nov 2026",
           "Section PYQ day + error log + 1 timed mini-test"
         ]
       ],
@@ -112,8 +112,8 @@ window.GATE_DATA = {
       "title": "Linear Algebra",
       "short": "Vectors, matrices, eigen concepts, decompositions",
       "difficulty": "High",
-      "days": "Oct 23–Nov 7",
-      "range": "16 days",
+      "days": "12 Nov 2026 – 22 Nov 2026",
+      "range": "11 days",
       "topics": [
         "Vector spaces and subspaces",
         "Linear dependence and independence",
@@ -134,39 +134,39 @@ window.GATE_DATA = {
       ],
       "plan": [
         [
-          "Oct 23–24",
+          "12 Nov 2026 – 13 Nov 2026",
           "Vector spaces, subspaces, span, dependence/independence"
         ],
         [
-          "Oct 25–26",
+          "14 Nov 2026",
           "Matrices, special matrices, partition matrices, quadratic forms"
         ],
         [
-          "Oct 27–28",
+          "15 Nov 2026",
           "Linear systems, Gaussian elimination, determinant, rank, nullity"
         ],
         [
-          "Oct 29–30",
+          "16 Nov 2026",
           "Projection matrices, orthogonal matrices, idempotent matrices + properties"
         ],
         [
-          "Oct 31–Nov 2",
+          "17 Nov 2026 – 18 Nov 2026",
           "Eigenvalues/eigenvectors + numerical problem practice"
         ],
         [
-          "Nov 3–4",
+          "19 Nov 2026",
           "LU decomposition + SVD"
         ],
         [
-          "Nov 5",
+          "20 Nov 2026",
           "Mixed linear algebra numericals + formula sheet"
         ],
         [
-          "Nov 6",
+          "21 Nov 2026",
           "GATE DA PYQs + related GATE linear algebra questions"
         ],
         [
-          "Nov 7",
+          "22 Nov 2026",
           "Timed section test + error analysis"
         ]
       ],
@@ -204,8 +204,8 @@ window.GATE_DATA = {
       "title": "Calculus & Optimization",
       "short": "Single-variable calculus, Taylor, extrema and optimization",
       "difficulty": "Medium",
-      "days": "Nov 8–15",
-      "range": "8 days",
+      "days": "23 Nov 2026 – 29 Nov 2026",
+      "range": "7 days",
       "topics": [
         "Functions of a single variable",
         "Limits",
@@ -217,31 +217,31 @@ window.GATE_DATA = {
       ],
       "plan": [
         [
-          "Nov 8",
+          "23 Nov 2026",
           "Functions and limits"
         ],
         [
-          "Nov 9",
+          "24 Nov 2026",
           "Continuity and differentiability"
         ],
         [
-          "Nov 10",
+          "25 Nov 2026",
           "Taylor series and approximations"
         ],
         [
-          "Nov 11–12",
+          "26 Nov 2026",
           "Maxima/minima and derivative tests"
         ],
         [
-          "Nov 13",
+          "27 Nov 2026",
           "Single-variable optimization"
         ],
         [
-          "Nov 14",
+          "28 Nov 2026",
           "Mixed numericals + PYQs"
         ],
         [
-          "Nov 15",
+          "29 Nov 2026",
           "Timed section test + error log"
         ]
       ],
@@ -279,8 +279,8 @@ window.GATE_DATA = {
       "title": "Programming, Data Structures & Algorithms",
       "short": "Python + core data structures, sorting/searching and graphs",
       "difficulty": "Medium-High",
-      "days": "Nov 16–30",
-      "range": "15 days",
+      "days": "30 Nov 2026 – 11 Dec 2026",
+      "range": "12 days",
       "topics": [
         "Programming in Python",
         "Stacks",
@@ -301,39 +301,39 @@ window.GATE_DATA = {
       ],
       "plan": [
         [
-          "Nov 16–18",
+          "30 Nov 2026 – 01 Dec 2026",
           "Python fundamentals: types, control flow, functions, lists/tuples/dictionaries, tracing"
         ],
         [
-          "Nov 19–20",
+          "02 Dec 2026 – 03 Dec 2026",
           "Stacks, queues, linked lists"
         ],
         [
-          "Nov 21–22",
+          "04 Dec 2026 – 05 Dec 2026",
           "Trees and tree traversal; hash tables"
         ],
         [
-          "Nov 23",
+          "06 Dec 2026",
           "Linear vs binary search + complexity"
         ],
         [
-          "Nov 24–25",
+          "07 Dec 2026",
           "Selection, bubble, insertion sort"
         ],
         [
-          "Nov 26–27",
+          "08 Dec 2026",
           "Merge sort + quicksort + complexity"
         ],
         [
-          "Nov 28",
+          "09 Dec 2026",
           "Graph basics + BFS/DFS"
         ],
         [
-          "Nov 29",
+          "10 Dec 2026",
           "Shortest path + mixed algorithm tracing"
         ],
         [
-          "Nov 30",
+          "11 Dec 2026",
           "GATE-style PYQs + timed section test"
         ]
       ],
@@ -371,8 +371,8 @@ window.GATE_DATA = {
       "title": "Database Management & Warehousing",
       "short": "ER, relational algebra, SQL, normalization, indexing and warehouse models",
       "difficulty": "Medium",
-      "days": "Dec 1–12",
-      "range": "12 days",
+      "days": "12 Dec 2026 – 21 Dec 2026",
+      "range": "10 days",
       "topics": [
         "ER model",
         "Relational model",
@@ -395,39 +395,39 @@ window.GATE_DATA = {
       ],
       "plan": [
         [
-          "Dec 1",
+          "12 Dec 2026",
           "ER model + relational model"
         ],
         [
-          "Dec 2–3",
+          "13 Dec 2026 – 14 Dec 2026",
           "Relational algebra + tuple calculus"
         ],
         [
-          "Dec 4–5",
+          "15 Dec 2026",
           "SQL: query construction, joins, aggregation and subqueries"
         ],
         [
-          "Dec 6",
+          "16 Dec 2026",
           "Integrity constraints + normal forms"
         ],
         [
-          "Dec 7–8",
+          "17 Dec 2026",
           "File organization + indexing"
         ],
         [
-          "Dec 9",
+          "18 Dec 2026",
           "Normalization, discretization, sampling, compression"
         ],
         [
-          "Dec 10",
+          "19 Dec 2026",
           "Data warehouse modelling + multidimensional models"
         ],
         [
-          "Dec 11",
+          "20 Dec 2026",
           "Concept hierarchies + measures/categorization/computations"
         ],
         [
-          "Dec 12",
+          "21 Dec 2026",
           "DBMS PYQs + timed section test"
         ]
       ],
@@ -465,8 +465,8 @@ window.GATE_DATA = {
       "title": "Machine Learning",
       "short": "Supervised + unsupervised learning, validation, neural nets and PCA",
       "difficulty": "Very High",
-      "days": "Dec 13–Jan 11",
-      "range": "30 days",
+      "days": "22 Dec 2026 – 11 Jan 2027",
+      "range": "21 days",
       "topics": [
         "Regression and classification problems",
         "Simple linear regression",
@@ -496,71 +496,71 @@ window.GATE_DATA = {
       ],
       "plan": [
         [
-          "Dec 13–15",
+          "22 Dec 2026 – 23 Dec 2026",
           "Regression: simple, multiple, objective functions and numerical questions"
         ],
         [
-          "Dec 16",
+          "24 Dec 2026",
           "Ridge regression + regularization intuition"
         ],
         [
-          "Dec 17–18",
+          "25 Dec 2026 – 26 Dec 2026",
           "Logistic regression + classification basics"
         ],
         [
-          "Dec 19",
+          "27 Dec 2026",
           "KNN"
         ],
         [
-          "Dec 20–21",
+          "28 Dec 2026",
           "Naive Bayes + probability connections"
         ],
         [
-          "Dec 22",
+          "29 Dec 2026",
           "LDA"
         ],
         [
-          "Dec 23–25",
+          "30 Dec 2026 – 31 Dec 2026",
           "SVM + kernels/conceptual geometry at syllabus level"
         ],
         [
-          "Dec 26–27",
+          "01 Jan 2027",
           "Decision trees + splitting/impurity concepts"
         ],
         [
-          "Dec 28",
+          "02 Jan 2027",
           "Bias-variance trade-off"
         ],
         [
-          "Dec 29–30",
+          "03 Jan 2027",
           "LOO and k-fold cross-validation"
         ],
         [
-          "Dec 31–Jan 2",
+          "04 Jan 2027 – 05 Jan 2027",
           "MLP + feed-forward neural networks"
         ],
         [
-          "Jan 3–4",
+          "06 Jan 2027",
           "Clustering foundations + K-means"
         ],
         [
-          "Jan 5",
+          "07 Jan 2027",
           "K-medoids"
         ],
         [
-          "Jan 6–7",
+          "08 Jan 2027",
           "Hierarchical clustering: top-down/bottom-up"
         ],
         [
-          "Jan 8",
+          "09 Jan 2027",
           "Single-linkage + multiple-linkage"
         ],
         [
-          "Jan 9–10",
+          "10 Jan 2027",
           "Dimensionality reduction + PCA"
         ],
         [
-          "Jan 11",
+          "11 Jan 2027",
           "Full ML PYQ set + timed section test + error log"
         ]
       ],
@@ -608,8 +608,8 @@ window.GATE_DATA = {
       "title": "Artificial Intelligence",
       "short": "Search, logic and probabilistic reasoning",
       "difficulty": "High",
-      "days": "Jan 12–25",
-      "range": "14 days",
+      "days": "12 Jan 2027 – 21 Jan 2027",
+      "range": "10 days",
       "topics": [
         "Uninformed search",
         "Informed search",
@@ -622,39 +622,39 @@ window.GATE_DATA = {
       ],
       "plan": [
         [
-          "Jan 12–13",
+          "12 Jan 2027 – 13 Jan 2027",
           "Uninformed search + state-space thinking"
         ],
         [
-          "Jan 14–15",
+          "14 Jan 2027",
           "Informed search + heuristics"
         ],
         [
-          "Jan 16–17",
+          "15 Jan 2027",
           "Adversarial search"
         ],
         [
-          "Jan 18–19",
+          "16 Jan 2027",
           "Propositional logic"
         ],
         [
-          "Jan 20–21",
+          "17 Jan 2027",
           "Predicate logic"
         ],
         [
-          "Jan 22",
+          "18 Jan 2027",
           "Conditional independence representation"
         ],
         [
-          "Jan 23",
+          "19 Jan 2027",
           "Exact inference: variable elimination"
         ],
         [
-          "Jan 24",
+          "20 Jan 2027",
           "Approximate inference: sampling"
         ],
         [
-          "Jan 25",
+          "21 Jan 2027",
           "AI PYQs + timed section test"
         ]
       ],
@@ -689,666 +689,551 @@ window.GATE_DATA = {
   ],
   "phases": [
     [
-      "2026-10-06",
-      "2026-10-22",
+      "2026-10-29",
+      "2026-11-11",
       "Section 1 — Probability & Statistics"
     ],
     [
-      "2026-10-23",
-      "2026-11-07",
+      "2026-11-12",
+      "2026-11-22",
       "Section 2 — Linear Algebra"
     ],
     [
-      "2026-11-08",
-      "2026-11-15",
+      "2026-11-23",
+      "2026-11-29",
       "Section 3 — Calculus & Optimization"
     ],
     [
-      "2026-11-16",
       "2026-11-30",
+      "2026-12-11",
       "Section 4 — Programming, Data Structures & Algorithms"
     ],
     [
-      "2026-12-01",
       "2026-12-12",
+      "2026-12-21",
       "Section 5 — Database Management & Warehousing"
     ],
     [
-      "2026-12-13",
+      "2026-12-22",
       "2027-01-11",
       "Section 6 — Machine Learning"
     ],
     [
       "2027-01-12",
-      "2027-01-25",
-      "Section 7 — AI"
+      "2027-01-21",
+      "Section 7 — Artificial Intelligence"
     ],
     [
-      "2027-01-26",
+      "2027-01-22",
+      "2027-01-31",
+      "Integrated revision + PYQs"
+    ],
+    [
       "2027-02-01",
-      "Integrated revision + PYQ week"
-    ],
-    [
-      "2027-02-02",
       "2027-02-05",
-      "Final mock + weak-area revision"
+      "Final mocks + weak-area revision"
     ]
   ],
   "daily": [
     {
-      "date": "2026-10-06",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-07",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-08",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-09",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-10",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-11",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-12",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-13",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-14",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-15",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-16",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-17",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-18",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-19",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-20",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-21",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-22",
-      "label": "Section 1 — Probability & Statistics",
-      "task": "Section 1 — Probability & Statistics — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-23",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-24",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-25",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-26",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-27",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
-      "date": "2026-10-28",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
-    },
-    {
       "date": "2026-10-29",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 001 · Probability & Statistics",
+      "task": "Counting, probability axioms, sample space, events, independence, mutually exclusive events. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-10-30",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 002 · Probability & Statistics",
+      "task": "Counting, probability axioms, sample space, events, independence, mutually exclusive events. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-10-31",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 003 · Probability & Statistics",
+      "task": "Marginal/conditional/joint probability + Bayes theorem; solve basic numericals. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-01",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 004 · Probability & Statistics",
+      "task": "Marginal/conditional/joint probability + Bayes theorem; solve basic numericals. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-02",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 005 · Probability & Statistics",
+      "task": "Expectation, conditional expectation, variance, mean/median/mode, SD. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-03",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 006 · Probability & Statistics",
+      "task": "Expectation, conditional expectation, variance, mean/median/mode, SD. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-04",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 007 · Probability & Statistics",
+      "task": "Correlation, covariance, random variables, PMF. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-05",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 008 · Probability & Statistics",
+      "task": "Bernoulli, binomial, uniform, Poisson, exponential distributions. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-06",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 009 · Probability & Statistics",
+      "task": "Bernoulli, binomial, uniform, Poisson, exponential distributions. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-07",
-      "label": "Section 2 — Linear Algebra",
-      "task": "Section 2 — Linear Algebra — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 010 · Probability & Statistics",
+      "task": "Normal/standard normal, CDF, PDF, conditional PDF. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-08",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 011 · Probability & Statistics",
+      "task": "t and chi-squared distributions + distribution comparisons. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-09",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 012 · Probability & Statistics",
+      "task": "CLT + confidence intervals. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-10",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 013 · Probability & Statistics",
+      "task": "z-test, t-test, chi-squared test. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-11",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 014 · Probability & Statistics",
+      "task": "Section PYQ day + error log + 1 timed mini-test. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-12",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 015 · Linear Algebra",
+      "task": "Vector spaces, subspaces, span, dependence/independence. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-13",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 016 · Linear Algebra",
+      "task": "Vector spaces, subspaces, span, dependence/independence. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-14",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 017 · Linear Algebra",
+      "task": "Matrices, special matrices, partition matrices, quadratic forms. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-15",
-      "label": "Section 3 — Calculus & Optimization",
-      "task": "Section 3 — Calculus & Optimization — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 018 · Linear Algebra",
+      "task": "Linear systems, Gaussian elimination, determinant, rank, nullity. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-16",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 019 · Linear Algebra",
+      "task": "Projection matrices, orthogonal matrices, idempotent matrices + properties. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-17",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 020 · Linear Algebra",
+      "task": "Eigenvalues/eigenvectors + numerical problem practice. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-18",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 021 · Linear Algebra",
+      "task": "Eigenvalues/eigenvectors + numerical problem practice. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-19",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 022 · Linear Algebra",
+      "task": "LU decomposition + SVD. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-20",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 023 · Linear Algebra",
+      "task": "Mixed linear algebra numericals + formula sheet. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-21",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 024 · Linear Algebra",
+      "task": "GATE DA PYQs + related GATE linear algebra questions. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-22",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 025 · Linear Algebra",
+      "task": "Timed section test + error analysis. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-23",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 026 · Calculus & Optimization",
+      "task": "Functions and limits. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-24",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 027 · Calculus & Optimization",
+      "task": "Continuity and differentiability. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-25",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 028 · Calculus & Optimization",
+      "task": "Taylor series and approximations. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-26",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 029 · Calculus & Optimization",
+      "task": "Maxima/minima and derivative tests. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-27",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 030 · Calculus & Optimization",
+      "task": "Single-variable optimization. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-28",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 031 · Calculus & Optimization",
+      "task": "Mixed numericals + PYQs. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-29",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 032 · Calculus & Optimization",
+      "task": "Timed section test + error log. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-11-30",
-      "label": "Section 4 — Programming, Data Structures & Algorithms",
-      "task": "Section 4 — Programming, Data Structures & Algorithms — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 033 · Programming, Data Structures & Algorithms",
+      "task": "Python fundamentals: types, control flow, functions, lists/tuples/dictionaries, tracing. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-01",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 034 · Programming, Data Structures & Algorithms",
+      "task": "Python fundamentals: types, control flow, functions, lists/tuples/dictionaries, tracing. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-02",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 035 · Programming, Data Structures & Algorithms",
+      "task": "Stacks, queues, linked lists. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-03",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 036 · Programming, Data Structures & Algorithms",
+      "task": "Stacks, queues, linked lists. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-04",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 037 · Programming, Data Structures & Algorithms",
+      "task": "Trees and tree traversal; hash tables. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-05",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 038 · Programming, Data Structures & Algorithms",
+      "task": "Trees and tree traversal; hash tables. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-06",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 039 · Programming, Data Structures & Algorithms",
+      "task": "Linear vs binary search + complexity. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-07",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 040 · Programming, Data Structures & Algorithms",
+      "task": "Selection, bubble, insertion sort. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-08",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 041 · Programming, Data Structures & Algorithms",
+      "task": "Merge sort + quicksort + complexity. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-09",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 042 · Programming, Data Structures & Algorithms",
+      "task": "Graph basics + BFS/DFS. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-10",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 043 · Programming, Data Structures & Algorithms",
+      "task": "Shortest path + mixed algorithm tracing. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-11",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 044 · Programming, Data Structures & Algorithms",
+      "task": "GATE-style PYQs + timed section test. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-12",
-      "label": "Section 5 — Database Management & Warehousing",
-      "task": "Section 5 — Database Management & Warehousing — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 045 · Database Management & Warehousing",
+      "task": "ER model + relational model. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-13",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 046 · Database Management & Warehousing",
+      "task": "Relational algebra + tuple calculus. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-14",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 047 · Database Management & Warehousing",
+      "task": "Relational algebra + tuple calculus. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-15",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 048 · Database Management & Warehousing",
+      "task": "SQL: query construction, joins, aggregation and subqueries. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-16",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 049 · Database Management & Warehousing",
+      "task": "Integrity constraints + normal forms. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-17",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 050 · Database Management & Warehousing",
+      "task": "File organization + indexing. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-18",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 051 · Database Management & Warehousing",
+      "task": "Normalization, discretization, sampling, compression. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-19",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 052 · Database Management & Warehousing",
+      "task": "Data warehouse modelling + multidimensional models. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-20",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 053 · Database Management & Warehousing",
+      "task": "Concept hierarchies + measures/categorization/computations. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-21",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 054 · Database Management & Warehousing",
+      "task": "DBMS PYQs + timed section test. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-22",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 055 · Machine Learning",
+      "task": "Regression: simple, multiple, objective functions and numerical questions. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-23",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 056 · Machine Learning",
+      "task": "Regression: simple, multiple, objective functions and numerical questions. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-24",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 057 · Machine Learning",
+      "task": "Ridge regression + regularization intuition. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-25",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 058 · Machine Learning",
+      "task": "Logistic regression + classification basics. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-26",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 059 · Machine Learning",
+      "task": "Logistic regression + classification basics. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-27",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 060 · Machine Learning",
+      "task": "KNN. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-28",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 061 · Machine Learning",
+      "task": "Naive Bayes + probability connections. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-29",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 062 · Machine Learning",
+      "task": "LDA. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-30",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 063 · Machine Learning",
+      "task": "SVM + kernels/conceptual geometry at syllabus level. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2026-12-31",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 064 · Machine Learning",
+      "task": "SVM + kernels/conceptual geometry at syllabus level. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-01",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 065 · Machine Learning",
+      "task": "Decision trees + splitting/impurity concepts. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-02",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 066 · Machine Learning",
+      "task": "Bias-variance trade-off. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-03",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 067 · Machine Learning",
+      "task": "LOO and k-fold cross-validation. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-04",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 068 · Machine Learning",
+      "task": "MLP + feed-forward neural networks. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-05",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 069 · Machine Learning",
+      "task": "MLP + feed-forward neural networks. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-06",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 070 · Machine Learning",
+      "task": "Clustering foundations + K-means. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-07",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 071 · Machine Learning",
+      "task": "K-medoids. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-08",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 072 · Machine Learning",
+      "task": "Hierarchical clustering: top-down/bottom-up. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-09",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 073 · Machine Learning",
+      "task": "Single-linkage + multiple-linkage. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-10",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 074 · Machine Learning",
+      "task": "Dimensionality reduction + PCA. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-11",
-      "label": "Section 6 — Machine Learning",
-      "task": "Section 6 — Machine Learning — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 075 · Machine Learning",
+      "task": "Full ML PYQ set + timed section test + error log. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-12",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 076 · Artificial Intelligence",
+      "task": "Uninformed search + state-space thinking. Study and solve worked examples (part 1/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-13",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 077 · Artificial Intelligence",
+      "task": "Uninformed search + state-space thinking. Study and solve worked examples (part 2/2); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-14",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 078 · Artificial Intelligence",
+      "task": "Informed search + heuristics. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-15",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 079 · Artificial Intelligence",
+      "task": "Adversarial search. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-16",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 080 · Artificial Intelligence",
+      "task": "Propositional logic. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-17",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 081 · Artificial Intelligence",
+      "task": "Predicate logic. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-18",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 082 · Artificial Intelligence",
+      "task": "Conditional independence representation. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-19",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 083 · Artificial Intelligence",
+      "task": "Exact inference: variable elimination. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-20",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 084 · Artificial Intelligence",
+      "task": "Approximate inference: sampling. Study and solve worked examples (part 1/1); attempt 20–30 relevant questions/PYQs and review mistakes. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-21",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 085 · Artificial Intelligence",
+      "task": "AI PYQs + timed section test. Complete the timed section test, review every error, and update your formula sheet. Add 30 minutes of General Aptitude and 15 minutes of spaced revision."
     },
     {
       "date": "2027-01-22",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 086 · Integrated revision + PYQs",
+      "task": "Probability & Statistics: distributions, Bayes, expectation, inference; timed PYQs and formula recall"
     },
     {
       "date": "2027-01-23",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 087 · Integrated revision + PYQs",
+      "task": "Linear Algebra: rank, eigenvalues, projections, LU/SVD; timed numerical PYQs"
     },
     {
       "date": "2027-01-24",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 088 · Integrated revision + PYQs",
+      "task": "Calculus & Optimization: limits, Taylor, extrema; timed PYQs and derivative tests"
     },
     {
       "date": "2027-01-25",
-      "label": "Section 7 — AI",
-      "task": "Section 7 — AI — follow the section roadmap; finish topic checklist + 25–40 practice questions."
+      "label": "Day 089 · Integrated revision + PYQs",
+      "task": "Programming & DSA: Python tracing, structures, sorting, graph traversals and shortest path"
     },
     {
       "date": "2027-01-26",
-      "label": "Integrated revision + PYQ week",
-      "task": "Day 1: Probability + Linear Algebra mixed PYQs"
+      "label": "Day 090 · Integrated revision + PYQs",
+      "task": "DBMS & Warehousing: SQL, algebra, normal forms, indexing and warehouse models"
     },
     {
       "date": "2027-01-27",
-      "label": "Integrated revision + PYQ week",
-      "task": "Day 2: Calculus + DSA mixed PYQs"
+      "label": "Day 091 · Integrated revision + PYQs",
+      "task": "Machine Learning: regression, classifiers, bias-variance and cross-validation; numerical PYQs"
     },
     {
       "date": "2027-01-28",
-      "label": "Integrated revision + PYQ week",
-      "task": "Day 3: DBMS + AI mixed PYQs"
+      "label": "Day 092 · Integrated revision + PYQs",
+      "task": "Machine Learning: neural networks, clustering and PCA; mixed numerical PYQs"
     },
     {
       "date": "2027-01-29",
-      "label": "Integrated revision + PYQ week",
-      "task": "Day 4: ML mixed PYQs"
+      "label": "Day 093 · Integrated revision + PYQs",
+      "task": "AI: search, logic, conditional independence, variable elimination and sampling"
     },
     {
       "date": "2027-01-30",
-      "label": "Integrated revision + PYQ week",
-      "task": "Day 5: Full 65-question timed paper"
+      "label": "Day 094 · Integrated revision + PYQs",
+      "task": "Integrated timed PYQ paper with General Aptitude; analyse errors and select final weak topics"
     },
     {
       "date": "2027-01-31",
-      "label": "Integrated revision + PYQ week",
-      "task": "Day 6: Analyze mock + revise error notebook"
+      "label": "Day 095 · Integrated revision + PYQs",
+      "task": "Consolidate all seven subjects: retry the error notebook, revise formulas, and complete a timed General Aptitude set"
     },
     {
       "date": "2027-02-01",
-      "label": "Integrated revision + PYQ week",
-      "task": "Day 7: Full revision of formulas/concepts"
+      "label": "Day 096 · Final mocks + weak-area revision",
+      "task": "Full mock 1: 3-hour exam simulation including General Aptitude; analyse errors and prioritise repairs"
     },
     {
       "date": "2027-02-02",
-      "label": "Final mock + weak-area revision",
-      "task": "Full 65-question / 100-mark mock under 180 minutes"
+      "label": "Day 097 · Final mocks + weak-area revision",
+      "task": "Repair mock-1 errors; retry wrong questions without solutions and revise weak formulas"
     },
     {
       "date": "2027-02-03",
-      "label": "Final mock + weak-area revision",
-      "task": "Deep mock analysis: classify every mistake as concept/calculation/time"
+      "label": "Day 098 · Final mocks + weak-area revision",
+      "task": "Full mock 2: 3-hour exam simulation including General Aptitude; analyse accuracy, pacing and errors"
     },
     {
       "date": "2027-02-04",
-      "label": "Final mock + weak-area revision",
-      "task": "Weak-topic repair + formula sheet revision"
+      "label": "Day 099 · Final mocks + weak-area revision",
+      "task": "Retry mock-2 errors; review high-yield formulas, Python/SQL tracing and frequent misconceptions"
     },
     {
       "date": "2027-02-05",
-      "label": "Final mock + weak-area revision",
-      "task": "Light revision, no new topics; sleep and exam strategy"
+      "label": "Day 100 · Final mocks + weak-area revision",
+      "task": "Light final revision: formula sheets and error notebook; check admit card, travel and exam essentials; rest well"
     }
   ],
   "global_resources": [
@@ -1387,5 +1272,7 @@ window.GATE_DATA = {
       "https://www.youtube.com/results?search_query=GATE+General+Aptitude+2027+PYQ",
       "GA practice"
     ]
-  ]
+  ],
+  "start_date": "2026-10-29",
+  "plan_days": 100
 };
