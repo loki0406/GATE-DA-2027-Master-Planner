@@ -26,7 +26,7 @@ A preparation workspace for GATE Data Science & Artificial Intelligence — brin
 
 | Plan with purpose | Learn with structure | Practise with intent |
 | :--- | :--- | :--- |
-| A 123-day roadmap that gives each study phase a place. | Seven syllabus sections with topic checklists and learning resources. | Links to previous-year questions and mock tests, alongside a daily tracker. |
+| A 100-day roadmap that gives each study phase a place. | Seven syllabus sections with topic checklists and learning resources. | Links to previous-year questions and mock tests, alongside a daily tracker. |
 
 - **Preparation dashboard** — get your bearings and jump into a subject.
 - **Daily checklist** — keep track of completed study blocks.
