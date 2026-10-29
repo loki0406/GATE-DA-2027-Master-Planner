@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=20261029-questions">
 </head>
 <body>
 <div class="app">
@@ -18,6 +18,7 @@
       <button class="nav-btn" data-view="roadmap">🗺️ 123-Day Roadmap</button>
       <button class="nav-btn" data-view="sections">📚 7 Sections</button>
       <button class="nav-btn" data-view="resources">🔗 Resources</button>
+      <button class="nav-btn questions-nav" data-view="solvedQuestions">📚 1800+ SOLVED QUESTIONS</button>
       <button class="nav-btn" data-view="mocks">🧪 PYQs & Mocks</button>
       <button class="nav-btn" data-view="tracker">✅ Daily Tracker</button>
       <button class="nav-btn" data-view="gateDetails">🎯 GATE Details</button>
@@ -25,7 +26,7 @@
       <button class="nav-btn" data-view="section1Ppts" type="button">📦 Section ZIP Downloads</button>
     </nav>
     <div class="sidebar-note">
-      <strong>Target</strong><br>Finish structured preparation by <b>05 Feb 2027</b>. PLANNED BY LOKI BHAAI
+      <strong>Target</strong><br>Finish structured preparation by <b>05 Feb 2027</b>. PLANNED BY BHAAI PDFS
     </div>
     <div class="sidebar-footer">Progress is saved in your browser.</div>
   </aside>
@@ -34,7 +35,7 @@
     <header class="topbar">
       <div>
         <div class="eyebrow">PERSONAL GATE DA COMMAND CENTER</div>
-        <h1 id="pageTitle">GATE DA 2027 Master Planner By Lokesh Bhaai </h1>
+        <h1 id="pageTitle">GATE DA 2027 Master Planner By BHAAI PDFS </h1>
       </div>
       <div class="top-actions">
         <button id="themeBtn" class="icon-btn" title="Toggle theme">☾</button>
@@ -225,7 +226,7 @@
               class="pdf-frame"
               src="DA_SYLLABUS_2025_2024.pdf#toolbar=1&view=FitH"
               title="GATE DA Syllabus PDF & 2025 , 2024 QUESTION Papers">
-           </iframe> title="Official GATE 2027 DA Syllabus PDF  & 2025 , 2024 QUESTION Papers"></iframe>
+           </iframe>
         </div>
 
         <div class="card">
@@ -255,6 +256,45 @@
       <p class="zip-help">Extract the downloaded ZIP to access your study materials. Files marked “Coming soon” will be added later.</p>
       <noscript>Please enable JavaScript to check download availability.</noscript>
     </section>
+    <section id="solvedQuestions" class="view" aria-labelledby="questionsTitle">
+      <div class="questions-hero">
+        <div><span class="pill">BHAAI PDFS · PRACTICE LIBRARY</span>
+          <h2 id="questionsTitle">1800+ SOLVED QUESTIONS</h2>
+          <p>Your GATE DA practice companion. Work through questions, review solutions, and revisit the concepts behind every answer.</p>
+        </div>
+        <div class="questions-count"><strong>1800+</strong><span>SOLVED QUESTIONS</span></div>
+      </div>
+      <div class="pdf-layout questions-layout">
+        <div class="card pdf-card questions-reader">
+          <div class="pdf-toolbar">
+            <span><b>GATE 2027 · DA</b><br>Data Science &amp; Artificial Intelligence</span>
+            <div>
+              <a class="link-btn" href="GATE%202027%20DATA%20SCIENCE%20%26%20ARTIFICIAL%20INTELLIGENCE_11zon.pdf" target="_blank" rel="noopener">Open PDF ↗</a>
+              <a class="link-btn green" href="GATE%202027%20DATA%20SCIENCE%20%26%20ARTIFICIAL%20INTELLIGENCE_11zon.pdf" download>Download PDF ↓</a>
+            </div>
+          </div>
+          <iframe id="questionsFrame" class="pdf-frame" data-src="GATE%202027%20DATA%20SCIENCE%20%26%20ARTIFICIAL%20INTELLIGENCE_11zon.pdf#toolbar=1&amp;view=FitH" title="1800+ solved questions for GATE Data Science and Artificial Intelligence"></iframe>
+          <p class="reader-help">PDF not displaying? Use Open PDF to read it in a new tab, or download a copy.</p>
+        </div>
+        <aside class="card questions-guide">
+          <span class="eyebrow">CONCEPTS TO PRACTICE</span>
+          <h3>Explore the 7 subjects</h3>
+          <p>Jump to a subject’s syllabus checklist to guide your practice.</p>
+          <div class="syllabus-nav">
+            <button onclick="openSection('probability')"><b>01</b> Probability & Statistics <span>›</span></button>
+            <button onclick="openSection('linear')"><b>02</b> Linear Algebra <span>›</span></button>
+            <button onclick="openSection('calculus')"><b>03</b> Calculus & Optimization <span>›</span></button>
+            <button onclick="openSection('dsa')"><b>04</b> Programming, Data Structures & Algorithms <span>›</span></button>
+            <button onclick="openSection('dbms')"><b>05</b> Database Management & Warehousing <span>›</span></button>
+            <button onclick="openSection('ml')"><b>06</b> Machine Learning <span>›</span></button>
+            <button onclick="openSection('ai')"><b>07</b> AI <span>›</span></button>
+          </div>
+
+          <div class="info-strip"><b>Make every question count</b><br>Attempt first → review the solution → record mistakes → retry during revision.</div>
+        </aside>
+      </div>
+    </section>
+
     <footer>
       <div><b>GATE DA 2027 Planner</b> · Built from the official DA syllabus you provided.</div>
       <div>Always verify official dates/instructions on the GATE 2027 website.</div>
@@ -262,7 +302,7 @@
   </main>
 </div>
 <script src="data.js"></script>
-<script src="app.js"></script>
+<script src="app.js?v=20261029-questions"></script>
 <script src="downloads.js"></script>
 </body>
 </html>
