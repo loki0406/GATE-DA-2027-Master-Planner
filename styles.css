@@ -228,3 +228,22 @@ body.light-theme .icon-btn {
 .zip-help{color:var(--muted);font-size:13px;line-height:1.7;margin-top:20px}
 .sidebar{overflow-y:auto}
 @media(max-width:760px){.zip-material-grid{grid-template-columns:1fr}.zip-section-button{width:100%}.zip-material-card{padding:20px}.zip-download{width:100%}}
+
+/* Solved questions library */
+.questions-nav{font-size:12px;font-weight:700;line-height:1.5}
+.questions-hero{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px;margin-bottom:20px;border:1px solid var(--line);border-radius:24px;background:radial-gradient(ellipse at top right,rgba(32,211,167,.18),transparent 65%),linear-gradient(135deg,rgba(124,92,255,.16),var(--panel))}
+.questions-hero h2{font:700 clamp(24px,3vw,38px) "Space Grotesk",sans-serif;margin:16px 0 10px;line-height:1.15}
+.questions-hero p{max-width:650px;color:var(--muted);font-size:14px;line-height:1.7;margin:0}
+.questions-count{flex-shrink:0;padding:20px;border:1px solid var(--line);border-radius:18px;background:var(--panel);text-align:center}
+.questions-count strong{display:block;font:800 40px "Space Grotesk",sans-serif;color:var(--accent2)}
+.questions-count span{font-size:10px;letter-spacing:.1em;color:var(--muted)}
+.questions-layout{align-items:start;grid-template-columns:minmax(0,1.7fr) minmax(260px,.8fr)}
+.questions-reader{min-width:0;border-top:3px solid var(--accent2)}
+.questions-reader .pdf-toolbar{line-height:1.7;flex-wrap:wrap}
+.questions-reader .pdf-toolbar div{flex-wrap:wrap}
+.questions-guide>p,.reader-help{color:var(--muted);font-size:12px;line-height:1.6}
+.reader-help{margin:12px 2px 0}
+.questions-guide .syllabus-nav button{min-height:48px}
+.questions-nav:focus-visible,.questions-guide button:focus-visible,.questions-reader a:focus-visible{outline:2px solid var(--accent2);outline-offset:3px}
+@media(max-width:1050px){.questions-layout{grid-template-columns:1fr}}
+@media(max-width:760px){.questions-hero{padding:20px;display:block}.questions-count{margin-top:18px;display:flex;align-items:center;justify-content:center;gap:14px}.questions-count strong{font-size:32px}.questions-nav{font-size:11px;overflow-wrap:anywhere}.questions-reader .pdf-toolbar div{display:flex}}
