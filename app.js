@@ -93,7 +93,7 @@ function setupNav(){
     if(id==="solvedQuestions"){const frame=document.getElementById("questionsFrame");if(!frame.getAttribute("src"))frame.src=frame.dataset.src;}
     document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));document.getElementById(id).classList.add("active");
     document.querySelectorAll(".nav-btn").forEach(b=>b.classList.toggle("active",b===btn));
-    document.getElementById("pageTitle").textContent=({dashboard:"GATE DA 2027 Master Planner",roadmap:"123-Day Roadmap",sections:"7-Section Syllabus",resources:"Study Materials & Videos",mocks:"PYQs & Mock Tests",tracker:"Daily Checklist",gateDetails:"GATE 2027 Details",syllabusPdf:"DA Syllabus PDF",solvedQuestions:"1800+ SOLVED QUESTIONS",section1Ppts:"Section ZIP Downloads"})[id];
+    document.getElementById("pageTitle").textContent=({dashboard:"GATE DA 2027 Master Planner",roadmap:"100-Day Roadmap",sections:"7-Section Syllabus",resources:"Study Materials & Videos",mocks:"PYQs & Mock Tests",tracker:"Daily Checklist",gateDetails:"GATE 2027 Details",syllabusPdf:"DA Syllabus PDF",solvedQuestions:"1800+ SOLVED QUESTIONS",section1Ppts:"Section ZIP Downloads"})[id];
     window.scrollTo({top:0,behavior:"smooth"});
   }));
 }
